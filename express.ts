@@ -7,6 +7,8 @@ app.use(cors())
 
 
 app.get("/",(req:Request,res:Response) => {
+    req[Symbol]
+    res._construct
     res.send("hello typescript")
 })
 
