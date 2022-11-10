@@ -1,7 +1,7 @@
 //console.log("Hello Typescript")
 
-//function debug(message: any) : void {
-    //console.log( (new Date()) + message   )
+function debug(message: any) : void {
+    console.log( (new Date()) + message   )
     //no return here
 //}
 
